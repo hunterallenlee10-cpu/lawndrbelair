@@ -463,6 +463,9 @@ button, input { font: inherit; color: inherit; }
 .site-footer__towns li { margin-bottom: .55rem; }
 .site-footer__bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; padding-top: 1.75rem; border-top: 1px solid var(--rule-on-ink); color: var(--muted-on-ink); font-size: .85rem; }
 .site-footer__bottom a { text-decoration: none; font-weight: 600; color: var(--paper); }
+.site-footer__credit { flex-basis: 100%; font-size: .8rem; }
+.site-footer__credit a { font-weight: inherit; color: inherit; }
+.site-footer__credit a:hover { color: var(--susan); }
 
 /* ---------- Scroll reveal ---------- */
 .motion .reveal { opacity: 0; transform: translateY(24px); transition: opacity 1s var(--ease-out), transform 1s var(--ease-out); transition-delay: var(--rd, 0ms); }
